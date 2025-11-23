@@ -1,0 +1,18 @@
+node_modules/
+.next/
+dist/
+build/
+.vscode/
+.env
+.DS_Store
+
+# Ignore OS files
+Thumbs.db
+
+# Ignore nested JS projects
+**/node_modules/
+**/dist/
+**/build/
+
+# Ignore TypeScript cache
+*.tsbuildinfo
